@@ -10,10 +10,12 @@ require (
 	github.com/miekg/dns v1.1.50
 	github.com/otiai10/copy v1.0.2
 	github.com/shirou/gopsutil v2.19.12+incompatible
-	golang.org/x/crypto v0.0.0-20220722155217-630584e8d5aa
-	golang.org/x/net v0.0.0-20211112202133-69e39bad7dc2
+	golang.org/x/crypto v0.31.0
+	golang.org/x/net v0.25.0
 	gopkg.in/ini.v1 v1.42.0
 )
+
+require golang.org/x/sync v0.10.0 // indirect
 
 // indirect dependencies
 require (
@@ -30,10 +32,9 @@ require (
 	github.com/stretchr/testify v1.3.0 // indirect
 	github.com/vmihailenco/msgpack v4.0.4+incompatible // indirect
 	go.etcd.io/bbolt v1.3.2 // indirect
-	golang.org/x/mod v0.4.2 // indirect
-	golang.org/x/sys v0.0.0-20210630005230-0f9fa26af87c // indirect
-	golang.org/x/text v0.3.6 // indirect
-	golang.org/x/tools v0.1.6-0.20210726203631-07bc1bf47fb2 // indirect
-	golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1 // indirect
+	golang.org/x/mod v0.17.0 // indirect
+	golang.org/x/sys v0.28.0 // indirect
+	golang.org/x/text v0.21.0 // indirect
+	golang.org/x/tools v0.21.1-0.20240508182429-e35e4ccd0d2d // indirect
 	google.golang.org/appengine v1.6.0 // indirect
 )
